@@ -32,11 +32,16 @@
                 </div>
             </div>
             <ul class="thumb">
-                <li><img src="Limu - TC.png"></li>
-                <li><img src="Sidama - TC.png"></li>
-                <li><img src="TropicalCoffeeYirgacheffe.png"></li>
-                <li><img src="House Blend - TC.png"></li>
+                <li><img src="Limu - TC.png" onclick="imgSlider('Limu - TC.png')"></li>
+                <li><img src="Sidama - TC.png" onclick="imgSlider('Sidama - TC.png')"></li>
+                <li><img src="TropicalCoffeeYirgacheffe.png" onclick="imgSlider('TropicalCoffeeYirgacheffe.png')"></li>
+                <li><img src="House Blend - TC.png" onclick="imgSlider('House Blend - TC.png')"></li>
             </ul>
         </section>
+        <script type="text/javascript">
+            function imgSlider(anything){
+                document.querySelector('.tropic').src = anything;
+            }
+        </script>
     </body>
 </html>
