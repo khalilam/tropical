@@ -68,7 +68,7 @@ header ul li a {
 .content .textBox h2 {
     color: #333;
     font-size: 4em;
-    line-height: 1.4em;
+    line-height: 1.1em;
     font-weight: 400;
     font-family: 'yanone kaffeesatz', sans-serif;
 }
@@ -84,6 +84,9 @@ header ul li a {
     color: #333;
     font-family: 'yanone kaffeesatz', sans-serif;
     font-weight: 300;
+    letter-spacing: 1px;
+    max-width: 400px;
+    line-height: 1.3em;
 }
 
 .content .textBox a {
