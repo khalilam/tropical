@@ -175,6 +175,13 @@ header ul li a {
         background-repeat: no-repeat;
         filter: invert(1);
     }
+    .toggle.active{
+        background: url(close.png);
+        background-size: 25px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1);
+    }
     section{
         padding: 20px 20px 120px;
     }
