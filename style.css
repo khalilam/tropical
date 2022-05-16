@@ -164,6 +164,17 @@ header ul li a {
     header ul{
         display: none;
     }
+    .toggle{
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url(menu.png);
+        background-size: 30px;
+        background-position: center;
+        background-repeat: no-repeat;
+        filter: invert(1);
+    }
     section{
         padding: 20px 20px 120px;
     }
@@ -184,7 +195,10 @@ header ul li a {
         justify-content: center;
     }
     .content .imgBox img{
-        max-width: 500px;
+        max-width: 450px;
+    }
+    .thumb li img{
+        max-width: 80px;
     }
     .circle{
         clip-path: circle(350px at center bottom);
