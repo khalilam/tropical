@@ -192,7 +192,7 @@ header ul li a {
 }
 
 .about-text h5 {
-    color: #2d1600;
+    color: #00ccff;
     font-size: 20px;
     font-family: 'yanone kaffeesatz', sans-serif;
     font-weight: 400;
@@ -202,17 +202,21 @@ header ul li a {
 
 .about-text p {
     color: #2d1600;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     font-family: 'yanone kaffeesatz', sans-serif;
     font-size: 16px;
     font-weight: 340;
+    line-height: 20px;
 }
 
 .map-section {
-    max-width: 100%;
-    display: flex;
-    margin: 0 auto;
-    align-items: center;
+    width: 100%;
+    padding: 78px 0;
+    background: #ffffff;
+}
+
+.map-text {
+    width: 550px;
 }
 
 .map-text h1 {
@@ -225,16 +229,20 @@ header ul li a {
 
 .map-text p {
     color: #2d1600;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     font-family: 'yanone kaffeesatz', sans-serif;
     font-size: 16px;
     font-weight: 340;
-    max-width: 400px;
+    line-height: 20px;
 }
 
 .map {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
     display: flex;
-
+    align-items: center;
+    justify-content: space-around;
 }
 
 .contact {
