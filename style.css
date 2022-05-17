@@ -153,7 +153,34 @@ header ul li a {
 }
 
 .about {
+    width: 100%;
+    padding: 78px 0;
     background: #f5f5f5;
+}
+
+.about img {
+    height: auto;
+    width: 720px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1 {
+    color: #00ccff;
+    font-family: 'pacifico';
+    font-size: 60px;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 991px)
@@ -212,7 +239,7 @@ header ul li a {
     }
     .content{
         flex-direction: column;
-        margin-top: 70px;
+        margin-top: 120px;
     }
     .content .textBox h2{
         color: #2d1600;
