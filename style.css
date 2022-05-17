@@ -180,7 +180,24 @@ header ul li a {
     color: #00ccff;
     font-family: 'pacifico';
     font-size: 60px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.about-text h5 {
+    color: #2d1600;
+    font-size: 20px;
+    font-family: 'yanone kaffeesatz', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    color: #2d1600;
+    letter-spacing: 1px;
+    font-family: 'yanone kaffeesatz', sans-serif;
+    font-size: 18px;
+    font-weight: 340;
 }
 
 @media (max-width: 991px)
