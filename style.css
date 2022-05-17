@@ -247,6 +247,7 @@ header ul li a {
 
 .contact {
     background: #f5f5f5;
+    max-width: 100%;
 }
 
 .container {
@@ -260,7 +261,7 @@ header ul li a {
 }
 
 .contact-box {
-    max-width: 850px;
+    max-width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -295,12 +296,39 @@ header ul li a {
 .field {
     width: 100%;
     padding: 0.5em 1em;
-    background-color: white;
+    border: 2px solid #f5f5f5;
+    background-color: #ffffff;
     font-size: 1.1em;
     margin-bottom: 22px;
     transition: .3s;
     font-family: 'yanone kaffeesatz', sans-serif;
     border-radius: 10px;
+}
+
+.field:hover {
+    background-color: #ffffff;
+}
+
+.field:focus {
+    background-color: #fff;
+    border: 2px solid #00ccff;
+}
+
+.area {
+    min-height: 150px;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.5em 1em;
+    font-size: 1.2em;
+    background-color: #00ccff;
+    font-family: 'yanone kaffeesatz', sans-serif;
+    border-radius: 10px;
+    border: none;
+    color: #f5f5f5;
+    letter-spacing: 2px;
+    cursor: pointer;
 }
 
 @media (max-width: 991px)
