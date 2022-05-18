@@ -25,7 +25,7 @@ header {
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
-    align-items: right;
+    align-items: center;
     z-index: 100;
     background-color: #ffffff;
 }
@@ -249,6 +249,13 @@ header ul li a {
 .contact {
     background: #f5f5f5;
     max-width: 100%;
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .container {
@@ -337,7 +344,7 @@ header ul li a {
     header{
         width: 100%;
         padding: 20px;
-        background-color: #f5f5f5;
+        background-color: #ffffff;
     }
     header .logo{
         max-width: 90px;
@@ -427,16 +434,19 @@ header ul li a {
         flex-direction: column;
         margin-top: 1px;
     }
+    .main img{
+        max-width: 380px;
+    }
     .about-text {
         max-width: 100%;
         justify-content: space-between;
     }
     .about-text h1{
-        font-size: 2.8em;
+        font-size: 2.2em;
         margin-bottom: 1px;
     }
     .about-text h5{
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin-bottom: 1px;
     }
     .about-text p{
@@ -449,6 +459,13 @@ header ul li a {
     .map-text{
         max-width: 100%;
         justify-content: space-between;
+        margin-bottom: 2px;
+    }
+    .map-text h1{
+        font-size: 2.2em;
+    }
+    .map-text p{
+        font-size: 1.0em;
     }
     iframe{
         max-width: 100%;
